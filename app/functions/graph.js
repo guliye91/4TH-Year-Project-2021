@@ -1,0 +1,87 @@
+$(document).ready(function(){
+     zingchart.render({
+        id:"myChart",
+        width:"100%",
+        height:400,
+        data:{
+        "type":"line",
+        "scale-x":{
+            "labels":myLabels
+        },
+        "series":[
+            {
+                "values":myData
+            }
+    ]
+    }
+    });
+     
+       zingchart.render({
+        id:"myChart1",
+        width:"100%",
+        height:400,
+        data:{
+        "type":"line",
+        "scale-x":{
+            "labels":myLabels1
+        },
+        "series":[
+            {
+                "values":myData1
+            }
+    ]
+    }
+    });
+       
+       zingchart.render({
+        id:"myChart2",
+        width:"100%",
+        height:400,
+        data:{
+        "type":"line",
+        "scale-x":{
+            "labels":myLabels2
+        },
+        "series":[
+            {
+                "values":myData2
+            }
+    ]
+    }
+    });
+       
+       zingchart.render({
+        id:"myChart3",
+        width:"100%",
+        height:400,
+        data:{
+        "type":"line",
+        "scale-x":{
+            "labels":myLabels3
+        },
+        "series":[
+            {
+                "values":myData3
+            }
+    ]
+    }
+    });
+       
+       zingchart.render({
+        id:"myChart4",
+        //width:"100%",
+        //height:400,
+        data:{
+        "type":"line",
+        "scale-x":{
+            "labels":myLabels4
+        },
+        "series":[
+            {
+                "values":myData4
+            }
+    ]
+    }
+    });
+});
+
